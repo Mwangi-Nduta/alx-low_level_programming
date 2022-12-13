@@ -19,21 +19,18 @@ int main(void)
 			{
 				if (!((n == m) || (m == k) || (m > n) || (k > m)))
 				{
-								
-					
-putchar(k);
-								
+					putchar(k);
 					putchar(m);
-																																															putchar(n);
-																																																				if (!(n == '9' && k == '7' && m == '8'))
-																																																										{
-																																																																	putchar(',');
-																																																																							putchar(' ');
-																																																																												}
-																																																								}
-																													}
-																			}
-											}
-						putchar('\n');
-							return (0);
+					putchar(n);
+					if (!(n == '9' && k == '7' && m == '8'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
